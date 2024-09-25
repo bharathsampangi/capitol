@@ -1,0 +1,98 @@
+.nav {
+    background-color: #130e0b;
+    display: flex;
+    color: #d6ab84;
+    padding: .5rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.list > li {
+    padding: .1rem .5rem;
+    margin: 0 .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.list > li:nth-child(4) {
+    display: none;
+}
+
+.listButton {
+    background-color: #c98e6f;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: none;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.logoImage {
+    height: 15px;
+    width: 100px;
+    transform: scale(1.1);
+}
+
+.logo {
+    background-color: #130e0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.call {
+    padding-top: 1rem;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 300;
+}
+
+.textSmall {
+    font-size: .30rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: -.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .logoImage {
+        height: 20px;
+        width: 120px;
+    }
+    .textSmall {
+        margin-left: 0;
+    }
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: .5rem 5vw;
+    }
+    .listButton {
+        display: block;
+    }
+    .list > li:nth-child(4) {
+        display: inline-block;
+    }
+    .list > li {
+        padding: .5rem .75rem;
+        margin: 0 .5rem;
+    }
+}

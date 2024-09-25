@@ -1,0 +1,105 @@
+.enquire {
+    margin:2rem auto;
+    max-width: 1200px;
+    background-color: #e9e5df;
+    padding: 2rem;
+    text-align: center;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(201, 142, 111, 1);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(214, 186, 67, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 50px rgba(214, 186, 67, 0);
+    }
+}
+
+.label {
+    display: block;
+    color: #d6ab84;
+    font-weight: 200;
+    padding-bottom: .5rem;
+    text-align: left;
+}
+
+.header {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement {
+    flex: 100%;
+    margin: .5rem 0;
+}
+
+.formElement > input {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.formElement > textarea {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #c98e6f;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #c98e6f;
+    padding: .5rem 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 1.5rem;
+    animation: pulse  2.5s linear infinite; 
+}
+
+.text {
+    font-weight: 200;
+    font-size: .85rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .formGroup {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+    }
+
+    .formElement {
+        flex: 50%;
+        margin: .5rem 0;
+    }
+
+    .formElement > input {
+        width: 100%;
+    }
+
+    .formElement > textarea {
+        width: 100%;
+    }
+}

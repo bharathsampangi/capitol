@@ -1,0 +1,24 @@
+.header {
+    font-size: 2.75rem;
+    color: #d6ab84;
+    text-transform: uppercase;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.element {
+    padding: 0 .5rem;
+}

@@ -1,0 +1,195 @@
+.landingMain {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/epitome-mobile.webp");
+    background-size: cover;
+    min-height: 70vh;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+    visibility: hidden;
+}
+
+.banner {
+    font-size: 1.25rem;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.landingText {
+    height: auto;
+    min-height: 60vh;
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    position: relative;
+}
+
+.landingBox {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.landingHeader {
+    width: 100%;
+    padding: 1rem;
+}
+
+.landingHeader > div {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.landingHeader p {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.hero {
+    display: none;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    display: block;
+    border-bottom: .75px solid #333;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heroList {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heroListItem {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroListItemHeader {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.call {
+    margin-top: 1rem;
+    font-size: .95rem;
+    cursor: pointer;
+}
+
+.heroListItemText {
+    text-transform: uppercase;
+    font-weight: 100;
+    max-width: 8vw;
+}
+
+.listButton {
+    background-color: #c98e6f;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #c98e6f;
+    padding: .5rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.landingImage {
+    height: 60vh;
+}
+
+.heading {
+    padding-bottom: 16px;
+}
+
+.container {
+    background-color: #bbb7b3;
+    display: none;
+}
+
+
+.innerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: block;
+    }
+    .heroList {
+        padding-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .landingMain {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/capitol.jpg");
+        min-height: 85vh;
+    }
+
+    .heroListItem:not(:last-child){
+        border-right: 1px solid #fff;
+    }
+
+    .landingText {
+        min-height: 30vh;
+    }
+
+    .header {
+        font-size: 3.75rem;
+    }
+
+    .listButton {
+        display: none;
+    }
+
+    .listButtonDesktop {
+        background-color: #c98e6f;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        border: 1px solid #c98e6f;
+        padding: .5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        display: block;
+    }
+}

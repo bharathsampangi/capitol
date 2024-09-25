@@ -1,0 +1,122 @@
+.modalClose {
+    font-size: .75em;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    background-color: #e9e5df;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    background-color: #e9e5df;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.label {
+    display: block;
+    color: #d6ab84;
+    font-weight: 200;
+    padding-bottom: .5rem;
+    text-align: left;
+}
+
+.header {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement {
+    flex: 100%;
+    margin: .5rem 0;
+}
+
+.formElement>input {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.formElement>textarea {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #c98e6f;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: inherit;
+    border: 1px solid #c98e6f;
+    padding: .5rem 2rem;
+    display: block;
+    color: #e9e5df;
+    margin-top: 1.5rem;
+}
+
+.text {
+    font-weight: 200;
+    font-size: .85rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .formGroup {
+        display: flex;
+        flex-direction: row;
+        margin: .5rem 0;
+    }
+
+    .formElement {
+        flex: 50%;
+    }
+
+    .formElement>input {
+        width: 100%;
+    }
+
+    .formElement>textarea {
+        width: 100%;
+    }
+
+    .modal {
+        width: 600px;
+    }
+}
