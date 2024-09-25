@@ -12,10 +12,10 @@
 }
 
 .button {
-    background-color: #c98e6f;
+    background-color: #d6ab84;
     cursor: pointer;
     color: inherit;
-    border: 1px solid #c98e6f;
+    border: 1px solid #d6ab84;
     padding: 1rem 1rem;
     color: #fff;
     flex-grow: 1;

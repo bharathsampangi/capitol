@@ -115,11 +115,11 @@
 }
 
 .listButton {
-    background-color: #c98e6f;
+    background-color: #d6ab84;
     cursor: pointer;
     text-transform: uppercase;
     color: inherit;
-    border: 1px solid #c98e6f;
+    border: 1px solid #d6ab84;
     padding: .5rem 2rem;
     margin-bottom: 1rem;
 }
@@ -180,11 +180,11 @@
     }
 
     .listButtonDesktop {
-        background-color: #c98e6f;
+        background-color: #d6ab84;
         cursor: pointer;
         text-transform: uppercase;
         color: #fff;
-        border: 1px solid #c98e6f;
+        border: 1px solid #d6ab84;
         padding: .5rem 2rem;
         margin-bottom: 1rem;
     }
