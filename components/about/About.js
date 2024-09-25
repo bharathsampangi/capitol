@@ -13,7 +13,7 @@ export default function About() {
             <div className={styles.locationBox}>
                 <div className={styles.locationInnerBox}>
                     <div className={styles.locationHeader2}>
-                        Whitefield's Capitol
+                        {`Whitefield\'s Capitol`}
                     </div>
                     <p>
                         Right off ITPL Main Road and just a few blocks from
