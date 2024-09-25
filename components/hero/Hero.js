@@ -6,7 +6,7 @@ export default function Hero({openModal}) {
         <section>
             <div className={styles.landingMain}>
                 <div className={styles.banner}>
-                    <h1 className={styles.header}>Sumadhura Epitome</h1>
+                    <h1 className={styles.header}>Sumadhura Capitol</h1>
                     <button className={styles.listButton} onClick={openModal} >
                         Download Brochure
                     </button>

@@ -1,5 +1,5 @@
 .landingMain {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/epitome-mobile.webp");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/capitol-mobile.webp");
     background-size: cover;
     min-height: 70vh;
     background-position: center;
@@ -159,7 +159,7 @@
     }
 
     .landingMain {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/capitol.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/capitol.webp");
         min-height: 85vh;
     }
 

@@ -5,9 +5,9 @@ export default function About() {
         <section className={styles.location} id="about">
             <div className={styles.aboutContainer}>
                 <img
-                    src="/images/capitol-home-mobile.jpg"
+                    src="/images/capitol-home-mobile.webp"
                     id="eptiome-home"
-                    alt="Sumadhura Epitome"
+                    alt="Sumadhura Capitol"
                 />
             </div>
             <div className={styles.locationBox}>

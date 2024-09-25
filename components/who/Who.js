@@ -60,7 +60,7 @@ export default function Who() {
                 <div className={styles.textBoxInner}>
                     <div className={styles.header}>Who is it for?</div>
                     <p className={styles.textItem}>
-                        No matter where you are on your life journey, Epitome is for you.
+                        No matter where you are on your life journey, Capitol is for you.
                         Whether you&apos;re a kid, senior, introvert, extrovert, dog, cat, single, or couple 
                         everyone is welcome. The neighborhood was designed with your 
                         needs in mind, as well as lots of surprises!
