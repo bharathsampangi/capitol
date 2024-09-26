@@ -8,6 +8,7 @@ export default function Enquire() {
             <div className={styles.text}>Please share the details below to Download brochure</div>
             <form className={styles.form} action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="e0445da9-5959-4e89-88cf-0b1a0d2c5c54" />
+                <input type="hidden" name="project" value="Sumadhura Capitol" />
                 <div className={styles.formGroup}>
                     <div className={styles.formElement}>
                         <label className={styles.label}>Name</label>

@@ -1,8 +1,8 @@
 .box {
-    padding: 2rem;
+    padding: 1.5rem;
     border: 1px solid #d6ab84;
     border-radius: 8px;
-    margin: 1rem;
+    margin: .5rem;
     min-width: max-content;
     display: flex;
     flex-direction: column;
@@ -52,4 +52,11 @@
 
 .priceText {
     padding-bottom: .25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        padding: 2rem;
+        margin: 1rem;
+    }
 }
