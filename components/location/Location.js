@@ -10,7 +10,12 @@ export default function Location() {
                     <div className={styles.locationHeader2}>
                         At the heart of the Whitefield!
                     </div>
-                    <p>Located just 1 min away from Kadugodi metro station</p>
+                    <p>
+                        Located just 1 min away from Kadugodi metro station.
+                        Close proximity to most shopping, healthcare, education
+                        and hospitality centres, it would be hard-pressed to
+                        find a better location in Kadugodi, Whitefield.
+                    </p>
                     <Link
                         className={styles.link}
                         href="https://maps.app.goo.gl/6MP1RQnAZWZLFiLcA"
