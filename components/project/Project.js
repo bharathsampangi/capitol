@@ -9,15 +9,15 @@ export default function Project({openModal}) {
                     <ul className={styles.list}>
                         <li>
                             <span className={styles.title}>Project: </span>
-                            <span>Luxury Apartments Township</span>
+                            <span>Ultra Luxury Apartments</span>
                         </li>
                         <li>
                             <span className={styles.title}>Location: </span>
-                            <span>Whitefield</span>
+                            <span>Hope Farm Junction, Whitefield</span>
                         </li>
                         <li>
                             <span className={styles.title}>Area: </span>
-                            <span>3.5 Acres</span>
+                            <span>4 Acres</span>
                         </li>
                         <li>
                             <span className={styles.title}>
@@ -36,7 +36,7 @@ export default function Project({openModal}) {
                         <li>
                             <span className={styles.title}>No. of Units: </span>
                             <span>
-                                262 Units
+                                362 Units
                             </span>
                         </li>
                         <li>
