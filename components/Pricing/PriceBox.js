@@ -20,7 +20,7 @@ export default function PriceBox(props) {
                 </span>
                 <hr/>
             </div>
-            <h3 className={styles.price}>{price}</h3>
+            {/* <h3 className={styles.price}>{price}</h3> */}
             <button className={styles.button} onClick={openModal} >
                 Get Quote
             </button>
