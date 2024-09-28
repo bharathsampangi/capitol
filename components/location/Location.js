@@ -11,7 +11,8 @@ export default function Location() {
                         At the heart of the Whitefield!
                     </div>
                     <p>
-                        Located just 1 min away from Kadugodi metro station.
+                        Located just behind Sumadhura Capitol Towers, Hope Farm Junction,
+                        just 200 meters from Metro Station.
                         Close proximity to most shopping, healthcare, education
                         and hospitality centres, it would be hard-pressed to
                         find a better location in Kadugodi, Whitefield.
